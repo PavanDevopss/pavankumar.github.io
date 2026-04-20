@@ -39,7 +39,6 @@ Then open `http://localhost:8000`.
 |-- index.html
 |-- resume.pdf
 |-- resume-20260420.pdf
-|-- resume-viewer.html
 |-- README.md
 |-- assets/
 |   |-- css/
@@ -62,6 +61,5 @@ Then open `http://localhost:8000`.
 
 - The site is fully static and GitHub Pages ready.
 - Resume download works from the versioned `resume-20260420.pdf` file in the repository root.
-- Resume preview opens through `resume-viewer.html`, which embeds the versioned PDF and keeps a direct-open fallback.
 - The QR code in `assets/images/resume_qr.png` points to the hosted resume URL for mobile download.
 - Asset and project paths are root-ready and relative-path safe.
