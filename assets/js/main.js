@@ -1,8 +1,8 @@
 const CONTENT = {
   hero: {
     name: "VADALA PAVAN KUMAR",
-    title: "DevSecOps Engineer | Site Reliability Engineer",
-    tagline: "Building reliable systems, automating everything, and ensuring zero-downtime deployments.",
+    title: "DevSecOps | Site Reliability Engineer",
+    tagline: "Building reliable systems, automating deployments, and keeping production stable across hybrid environments.",
     stats: [
       {
         value: "3+ Years",
@@ -18,7 +18,7 @@ const CONTENT = {
       }
     ]
   },
-  about: "DevSecOps and Site Reliability Engineer with 3+ years of experience building CI/CD pipelines, automating release workflows, and supporting hybrid infrastructure across on-prem and AWS environments. I focus on reducing manual deployment effort, strengthening rollback readiness, and improving production reliability through scripting, observability, and disciplined release governance.",
+  about: "DevOps and Site Reliability Engineer with 3+ years of hands-on experience in building and managing CI/CD pipelines, hybrid infrastructure (On-Prem + Cloud), and production systems. Strong expertise in automation using Bash, Python, and Ansible, with proven experience in reducing manual deployments, improving release frequency, and handling production incidents with rollback strategies. Experienced in AWS as the primary cloud platform and Azure as a secondary environment, with a solid understanding of backend systems, API deployments, and database optimization.",
   skills: [
     {
       title: "DevOps",
@@ -40,6 +40,9 @@ const CONTENT = {
         "AWS S3",
         "AWS RDS",
         "AWS ALB",
+        "AWS ECR",
+        "AWS Route 53",
+        "AWS CloudWatch",
         "Azure (Basic)"
       ]
     },
@@ -51,7 +54,9 @@ const CONTENT = {
         "GitLab CI/CD",
         "Bitbucket Pipelines",
         "Nexus",
-        "SonarQube"
+        "SonarQube",
+        "Jira",
+        "Postman"
       ]
     },
     {
@@ -67,7 +72,8 @@ const CONTENT = {
       title: "Containers",
       items: [
         "Docker",
-        "Kubernetes"
+        "Kubernetes",
+        "Helm"
       ]
     },
     {
@@ -79,6 +85,43 @@ const CONTENT = {
         "Health Checks",
         "Alert Notifications"
       ]
+    },
+    {
+      title: "Servers",
+      items: [
+        "Linux",
+        "Nginx",
+        "Apache",
+        "Tomcat"
+      ]
+    },
+    {
+      title: "App and Data",
+      items: [
+        "Node.js",
+        "React",
+        "Flutter",
+        "PHP",
+        "Java",
+        "MySQL",
+        "PostgreSQL",
+        "MongoDB",
+        "PgBouncer"
+      ]
+    }
+  ],
+  credentials: [
+    {
+      title: "Master of Computer Applications",
+      description: "MCA - Vignan's University, Guntur."
+    },
+    {
+      title: "AWS Certified Developer - Associate",
+      description: "Official AWS certification listed in the updated resume and aligned with the cloud and platform engineering profile."
+    },
+    {
+      title: "DevOps Hands-On Training",
+      description: "Hands-on DevOps training included in the updated resume and reflected here for a complete application profile."
     }
   ],
   experience: [
@@ -89,12 +132,15 @@ const CONTENT = {
       duration: "Jan 2025 - Present",
       projects: "Varun Management System, V-Promise, HRMS, EAM, VMS-Audit, MMS, Cosec-Backend",
       impacts: [
-        "Built multi-environment CI/CD pipelines across DEV, QA, UAT, and PROD using Jenkins, GitHub Actions, GitLab CI/CD, and Bitbucket Pipelines to standardize releases for multiple business-critical applications.",
-        "Automated branch-based deployments with Bash and Ansible, cutting manual release handling and improving deployment consistency across teams.",
-        "Established release governance with approvals, tagging strategy, branch protection, and rollback paths to support safer production deployments.",
-        "Implemented cron-based automation for health checks, database backups, cleanup workflows, and alert notifications to reduce operational toil.",
-        "Handled production incidents with root cause analysis and Git-based rollback execution, strengthening service continuity and recovery readiness.",
-        "Integrated SonarQube and Nexus into release workflows to improve code quality gates and artifact traceability."
+        "Designed and implemented CI/CD pipelines using Jenkins, GitHub Actions, GitLab CI/CD, and Bitbucket Pipelines across DEV, QA, UAT, and PROD environments.",
+        "Automated deployments using Bash and Ansible, enabling branch-based deployments and reducing manual intervention.",
+        "Built and managed hybrid infrastructure across On-Prem and AWS, including migration support and environment setup.",
+        "Implemented release governance with branch protection, approvals, tagging strategies, and rollback mechanisms.",
+        "Developed cron-based automation for health checks, database backups, cleanup tasks, and alert notifications.",
+        "Managed production incidents, performed root cause analysis, and executed Git-based rollback strategies.",
+        "Deployed and supported applications built with Node.js, Python, PHP, Java, React, and Flutter.",
+        "Integrated SonarQube and Nexus for code quality and artifact management.",
+        "Implemented RBAC and secure access control for production systems."
       ]
     },
     {
@@ -104,12 +150,14 @@ const CONTENT = {
       duration: "Mar 2023 - Dec 2024",
       projects: "JPF, VR-Garage, Clokam, HRMS, EAM",
       impacts: [
-        "Managed AWS infrastructure across EC2, ALB, Auto Scaling, S3, IAM, RDS, and Route 53 to support secure, scalable application hosting.",
-        "Built and maintained CI/CD pipelines with Jenkins and GitHub Actions, improving release repeatability for application teams.",
-        "Configured IAM roles and access policies to align developer access with operational security needs.",
-        "Supported Docker-based deployments and production troubleshooting to maintain service availability during releases.",
-        "Created monitoring dashboards with CloudWatch, Prometheus, and Grafana, enabling earlier failure detection and faster response.",
-        "Helped scale infrastructure and networking design with NAT, private/public architecture, and alerting for production anomalies."
+        "Managed AWS infrastructure including EC2, ALB, Auto Scaling, S3, IAM, RDS, and Route 53.",
+        "Configured secure IAM roles and access policies for developers and services.",
+        "Built and maintained CI/CD pipelines using Jenkins and GitHub Actions.",
+        "Supported Docker-based application deployments.",
+        "Configured monitoring using CloudWatch, Prometheus, and Grafana dashboards.",
+        "Set up alerting systems using email-based triggers for failures and system anomalies.",
+        "Handled production incidents and ensured high availability.",
+        "Supported infrastructure scaling and networking setup including NAT and private/public architecture."
       ]
     },
     {
@@ -121,7 +169,8 @@ const CONTENT = {
       impacts: [
         "Supported AWS environments using EC2, VPC, IAM, and Linux servers while learning production-grade operational patterns.",
         "Assisted with Jenkins pipeline setup and deployment environment configuration for application delivery workflows.",
-        "Built practical hands-on depth in Linux administration, release operations, and cloud fundamentals through implementation-focused work."
+        "Supported application deployments and environment configurations.",
+        "Built practical hands-on experience through practical implementations and after-hours learning."
       ]
     }
   ],
@@ -130,7 +179,7 @@ const CONTENT = {
       slug: "cicd-pipeline",
       label: "CI/CD Pipeline System",
       title: "Multi-Environment Release Pipeline with Rollback Controls",
-      summary: "A delivery system designed for predictable promotion from DEV to PROD with approvals, branch-based routing, artifact traceability, and rollback readiness.",
+      summary: "A delivery system designed for predictable promotion from DEV to PROD with approvals, branch-based routing, artifact traceability, rollback readiness, and zero-downtime release support.",
       problem: "Multiple applications were being released through manual steps, which increased deployment time, made approvals inconsistent, and created risk during production changes.",
       solution: "Designed a multi-stage release workflow using Jenkins and GitHub Actions with environment gates, branch-based triggers, tagged releases, and rollback procedures aligned to Git history and deployment versions.",
       tools: [
@@ -151,7 +200,7 @@ const CONTENT = {
       slug: "db-automation",
       label: "Database Automation System",
       title: "Backup, Restore, and Migration Automation for Safe Data Movement",
-      summary: "An operational database toolkit for backups, restores, controlled migrations, and failure recovery with a zero-data-loss mindset.",
+      summary: "An operational database toolkit for backups, restores, controlled migrations, full database recovery workflows, and failure recovery with a zero-data-loss mindset.",
       problem: "Database migrations and recovery activities were high-risk when handled manually, especially across DEV, QA, UAT, and PROD environments where consistency and recovery speed matter.",
       solution: "Created scripted backup, restore, and migration workflows using Bash, Python, and cron scheduling with validation checkpoints, recovery sequencing, and environment-aware execution paths.",
       tools: [
@@ -171,7 +220,7 @@ const CONTENT = {
       slug: "monitoring-setup",
       label: "Monitoring & Alerting Stack",
       title: "Observability Stack for Faster Detection and Response",
-      summary: "A monitoring foundation combining metrics, dashboards, health checks, and alerting to catch failures before users are impacted.",
+      summary: "A monitoring foundation combining metrics, dashboards, health checks, and alerting to catch failures before users are impacted and improve proactive incident response.",
       problem: "Without clear dashboards and alerting, production issues take longer to detect, triage, and resolve, which increases downtime risk and slows incident response.",
       solution: "Configured Prometheus, Grafana, and CloudWatch dashboards with service health checks, system metrics, and alert notifications to surface application and infrastructure issues early.",
       tools: [
@@ -190,11 +239,11 @@ const CONTENT = {
   achievements: [
     {
       title: "Zero-Downtime Release Strategy",
-      description: "Implemented deployment workflows with rollback controls that supported service continuity during production releases."
+      description: "Implemented zero-downtime deployment pipelines with rollback mechanisms that supported service continuity during production releases."
     },
     {
       title: "Critical Database Recovery",
-      description: "Restored production databases after accidental deletion using prepared backup and recovery procedures."
+      description: "Restored critical production databases after accidental deletion using backup strategies and recovery procedures."
     },
     {
       title: "Automation-Led Delivery",
@@ -203,6 +252,20 @@ const CONTENT = {
     {
       title: "Performance Optimization",
       description: "Improved PostgreSQL efficiency using PgBouncer and configuration tuning to support more stable backend performance."
+    }
+  ],
+  aiWork: [
+    {
+      title: "AI-Assisted CI/CD Improvement",
+      description: "Used AI tools including ChatGPT, GitHub Copilot, Claude, and Gemini for debugging, automation support, and CI/CD improvements."
+    },
+    {
+      title: "Log Analysis and Script Optimization",
+      description: "Applied AI for log analysis, script optimization, and faster troubleshooting during operations and delivery work."
+    },
+    {
+      title: "Architecture Validation with Safe Handling",
+      description: "Applied AI for architecture validation without exposing sensitive data."
     }
   ],
   contact: [
@@ -227,7 +290,7 @@ const CONTENT = {
     {
       type: "linkedin",
       label: "LinkedIn Profile",
-      href: "https://www.linkedin.com/in/pavan-kumar-vadala/",
+      href: "https://www.linkedin.com/in/pavan-kumar-a34255358",
       external: true
     }
   ]
@@ -346,6 +409,42 @@ function buildAchievements(items) {
     .join("");
 }
 
+function buildCredentials(items) {
+  const wrapper = document.getElementById("credentials-grid");
+  if (!wrapper) {
+    return;
+  }
+
+  wrapper.innerHTML = items
+    .map(
+      (item) => `
+        <article class="achievement-card">
+          <h3>${item.title}</h3>
+          <p>${item.description}</p>
+        </article>
+      `
+    )
+    .join("");
+}
+
+function buildAiWork(items) {
+  const wrapper = document.getElementById("ai-grid");
+  if (!wrapper) {
+    return;
+  }
+
+  wrapper.innerHTML = items
+    .map(
+      (item) => `
+        <article class="achievement-card">
+          <h3>${item.title}</h3>
+          <p>${item.description}</p>
+        </article>
+      `
+    )
+    .join("");
+}
+
 function buildContact(items) {
   const wrapper = document.getElementById("contact-list");
   if (!wrapper) {
@@ -403,9 +502,11 @@ function loadContent() {
 
   buildHeroStats(CONTENT.hero.stats);
   buildSkills(CONTENT.skills);
+  buildCredentials(CONTENT.credentials);
   buildExperience(CONTENT.experience);
   buildProjects(CONTENT.projects);
   buildAchievements(CONTENT.achievements);
+  buildAiWork(CONTENT.aiWork);
   buildContact(CONTENT.contact);
   hydrateProjectPage(CONTENT);
 }
