@@ -6,7 +6,7 @@ const CONTENT = {
     stats: [
       {
         value: "3+ Years",
-        label: "Hands-on DevOps and SRE experience"
+        label: "Hands-on DevSecOps and SRE experience"
       },
       {
         value: "4 Environments",
@@ -18,10 +18,10 @@ const CONTENT = {
       }
     ]
   },
-  about: "DevOps and Site Reliability Engineer with 3+ years of hands-on experience in building and managing CI/CD pipelines, hybrid infrastructure (On-Prem + Cloud), and production systems. Strong expertise in automation using Bash, Python, and Ansible, with proven experience in reducing manual deployments, improving release frequency, and handling production incidents with rollback strategies. Experienced in AWS as the primary cloud platform and Azure as a secondary environment, with a solid understanding of backend systems, API deployments, and database optimization.",
+  about: "DevSecOps and Site Reliability Engineer with 3+ years of hands-on experience in building and managing CI/CD pipelines, hybrid infrastructure (On-Prem + Cloud), and production systems. Strong expertise in automation using Bash, Python, and Ansible, with proven experience in reducing manual deployments, improving release frequency, and handling production incidents with rollback strategies. Experienced in AWS as the primary cloud platform and Azure as a secondary environment, with a solid understanding of backend systems, API deployments, and database optimization.",
   skills: [
     {
-      title: "DevOps",
+      title: "DevSecOps",
       items: [
         "CI/CD",
         "Release Management",
@@ -120,13 +120,13 @@ const CONTENT = {
       description: "Official AWS certification listed in the updated resume and aligned with the cloud and platform engineering profile."
     },
     {
-      title: "DevOps Hands-On Training",
-      description: "Hands-on DevOps training included in the updated resume and reflected here for a complete application profile."
+      title: "DevSecOps Hands-On Training",
+      description: "Hands-on DevSecOps training included in the updated resume and reflected here for a complete application profile."
     }
   ],
   experience: [
     {
-      role: "DevOps Engineer / Site Reliability Engineer",
+      role: "DevSecOps Engineer / Site Reliability Engineer",
       company: "Varun Group",
       location: "India",
       duration: "Jan 2025 - Present",
@@ -144,7 +144,7 @@ const CONTENT = {
       ]
     },
     {
-      role: "DevOps Engineer",
+      role: "DevSecOps Engineer",
       company: "Amunik Software Solutions Pvt. Ltd.",
       location: "Vijayawada - Remote",
       duration: "Mar 2023 - Dec 2024",

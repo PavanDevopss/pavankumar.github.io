@@ -1,4 +1,4 @@
-# Pavan DevOps Portfolio
+# Pavan DevSecOps Portfolio
 
 Static portfolio website for **Vadala Pavan Kumar**, built for GitHub Pages and served directly from the repository root on the `master` branch.
 
@@ -8,7 +8,7 @@ Static portfolio website for **Vadala Pavan Kumar**, built for GitHub Pages and 
 
 ## Project Description
 
-This portfolio presents production-focused DevOps and Site Reliability Engineering work in a clean recruiter-friendly format. It highlights CI/CD pipelines, infrastructure automation, observability, recovery planning, and platform operations experience.
+This portfolio presents production-focused DevSecOps and Site Reliability Engineering work in a clean recruiter-friendly format. It highlights CI/CD pipelines, infrastructure automation, observability, recovery planning, and platform operations experience.
 
 ## GitHub Pages Deployment
 
