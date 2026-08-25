@@ -5,7 +5,7 @@ const CONTENT = {
     tagline: "Building reliable systems, automating deployments, and keeping production stable across hybrid environments.",
     stats: [
       {
-        value: "3+ Years",
+        value: "5+ Years",
         label: "Hands-on DevSecOps and SRE experience"
       },
       {
