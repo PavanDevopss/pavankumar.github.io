@@ -18,7 +18,7 @@ const CONTENT = {
       }
     ]
   },
-  about: "DevSecOps and Site Reliability Engineer with 3+ years of hands-on experience in building and managing CI/CD pipelines, hybrid infrastructure (On-Prem + Cloud), and production systems. Strong expertise in automation using Bash, Python, and Ansible, with proven experience in reducing manual deployments, improving release frequency, and handling production incidents with rollback strategies. Experienced in AWS as the primary cloud platform and Azure as a secondary environment, with a solid understanding of backend systems, API deployments, and database optimization.",
+  about: "DevSecOps and Site Reliability Engineer with 5+ years of hands-on experience in building and managing CI/CD pipelines, hybrid infrastructure (On-Prem + Cloud), and production systems. Strong expertise in automation using Bash, Python, and Ansible, with proven experience in reducing manual deployments, improving release frequency, and handling production incidents with rollback strategies. Experienced in AWS as the primary cloud platform and Azure as a secondary environment, with a solid understanding of backend systems, API deployments, and database optimization.",
   skills: [
     {
       title: "DevSecOps",
@@ -124,56 +124,89 @@ const CONTENT = {
       description: "Hands-on DevSecOps training included in the updated resume and reflected here for a complete application profile."
     }
   ],
-  experience: [
-    {
-      role: "DevSecOps Engineer / Site Reliability Engineer",
-      company: "Varun Group",
-      location: "India",
-      duration: "Jan 2025 - Present",
-      projects: "Varun Management System, V-Promise, HRMS, EAM, VMS-Audit, MMS, Cosec-Backend",
-      impacts: [
-        "Designed and implemented CI/CD pipelines using Jenkins, GitHub Actions, GitLab CI/CD, and Bitbucket Pipelines across DEV, QA, UAT, and PROD environments.",
-        "Automated deployments using Bash and Ansible, enabling branch-based deployments and reducing manual intervention.",
-        "Built and managed hybrid infrastructure across On-Prem and AWS, including migration support and environment setup.",
-        "Implemented release governance with branch protection, approvals, tagging strategies, and rollback mechanisms.",
-        "Developed cron-based automation for health checks, database backups, cleanup tasks, and alert notifications.",
-        "Managed production incidents, performed root cause analysis, and executed Git-based rollback strategies.",
-        "Deployed and supported applications built with Node.js, Python, PHP, Java, React, and Flutter.",
-        "Integrated SonarQube and Nexus for code quality and artifact management.",
-        "Implemented RBAC and secure access control for production systems."
-      ]
-    },
-    {
-      role: "DevSecOps Engineer",
-      company: "Amunik Software Solutions Pvt. Ltd.",
-      location: "Vijayawada - Remote",
-      duration: "Mar 2023 - Dec 2024",
-      projects: "JPF, VR-Garage, Clokam, HRMS, EAM",
-      impacts: [
-        "Managed AWS infrastructure including EC2, ALB, Auto Scaling, S3, IAM, RDS, and Route 53.",
-        "Configured secure IAM roles and access policies for developers and services.",
-        "Built and maintained CI/CD pipelines using Jenkins and GitHub Actions.",
-        "Supported Docker-based application deployments.",
-        "Configured monitoring using CloudWatch, Prometheus, and Grafana dashboards.",
-        "Set up alerting systems using email-based triggers for failures and system anomalies.",
-        "Handled production incidents and ensured high availability.",
-        "Supported infrastructure scaling and networking setup including NAT and private/public architecture."
-      ]
-    },
-    {
-      role: "DevOps Intern",
-      company: "Pivotal Software Solutions Pvt. Ltd.",
-      location: "Visakhapatnam - Remote",
-      duration: "Feb 2022 - Feb 2023",
-      projects: "AWS infrastructure setup and CI/CD support",
-      impacts: [
-        "Supported AWS environments using EC2, VPC, IAM, and Linux servers while learning production-grade operational patterns.",
-        "Assisted with Jenkins pipeline setup and deployment environment configuration for application delivery workflows.",
-        "Supported application deployments and environment configurations.",
-        "Built practical hands-on experience through practical implementations and after-hours learning."
-      ]
-    }
-  ],
+  // experience: [
+  //   {
+  //     role: "DevSecOps Engineer / Site Reliability Engineer",
+  //     company: "Varun Group",
+  //     location: "India",
+  //     duration: "Jan 2025 - Present",
+  //     projects: "Varun Management System, V-Promise, HRMS, EAM, VMS-Audit, MMS, Cosec-Backend",
+  //     impacts: [
+  //       "Designed and implemented CI/CD pipelines using Jenkins, GitHub Actions, GitLab CI/CD, and Bitbucket Pipelines across DEV, QA, UAT, and PROD environments.",
+  //       "Automated deployments using Bash and Ansible, enabling branch-based deployments and reducing manual intervention.",
+  //       "Built and managed hybrid infrastructure across On-Prem and AWS, including migration support and environment setup.",
+  //       "Implemented release governance with branch protection, approvals, tagging strategies, and rollback mechanisms.",
+  //       "Developed cron-based automation for health checks, database backups, cleanup tasks, and alert notifications.",
+  //       "Managed production incidents, performed root cause analysis, and executed Git-based rollback strategies.",
+  //       "Deployed and supported applications built with Node.js, Python, PHP, Java, React, and Flutter.",
+  //       "Integrated SonarQube and Nexus for code quality and artifact management.",
+  //       "Implemented RBAC and secure access control for production systems."
+  //     ]
+  //   },
+  //   {
+  //     role: "DevSecOps Engineer",
+  //     company: "Amunik Software Solutions Pvt. Ltd.",
+  //     location: "Vijayawada - Remote",
+  //     duration: "Mar 2023 - Dec 2024",
+  //     projects: "JPF, VR-Garage, Clokam, HRMS, EAM",
+  //     impacts: [
+  //       "Managed AWS infrastructure including EC2, ALB, Auto Scaling, S3, IAM, RDS, and Route 53.",
+  //       "Configured secure IAM roles and access policies for developers and services.",
+  //       "Built and maintained CI/CD pipelines using Jenkins and GitHub Actions.",
+  //       "Supported Docker-based application deployments.",
+  //       "Configured monitoring using CloudWatch, Prometheus, and Grafana dashboards.",
+  //       "Set up alerting systems using email-based triggers for failures and system anomalies.",
+  //       "Handled production incidents and ensured high availability.",
+  //       "Supported infrastructure scaling and networking setup including NAT and private/public architecture."
+  //     ]
+  //   },
+  //   {
+  //     role: "DevOps Intern",
+  //     company: "Pivotal Software Solutions Pvt. Ltd.",
+  //     location: "Visakhapatnam - Remote",
+  //     duration: "Feb 2022 - Feb 2023",
+  //     projects: "AWS infrastructure setup and CI/CD support",
+  //     impacts: [
+  //       "Supported AWS environments using EC2, VPC, IAM, and Linux servers while learning production-grade operational patterns.",
+  //       "Assisted with Jenkins pipeline setup and deployment environment configuration for application delivery workflows.",
+  //       "Supported application deployments and environment configurations.",
+  //       "Built practical hands-on experience through practical implementations and after-hours learning."
+  //     ]
+  //   }
+  // ],
+experience: [
+  {
+    role: "DevOps Engineer / Site Reliability Engineer",
+    company: "Varun Group",
+    location: "India",
+    duration: "April 2021 - Present",
+    projects: "Varun Management System (VMS), V-Promise, HRMS, EAM, VMS-Audit, MMS, Cosec-Backend",
+    impacts: [
+      "Designed and implemented CI/CD pipelines using Jenkins, GitHub Actions, GitLab CI/CD, and Bitbucket Pipelines across DEV, QA, UAT, and PROD environments.",
+      "Automated deployments using Bash and Ansible, enabling branch-based deployment workflows and reducing manual release effort.",
+      "Built and managed hybrid infrastructure across On-Prem and AWS, including migration support and environment setup for production applications.",
+      "Implemented release governance with branch protection, approval workflows, tagging strategies, and rollback mechanisms.",
+      "Developed cron-based automation for health checks, database backups, cleanup tasks, and alert notifications.",
+      "Led production incident response, performing root cause analysis (RCA) and executing Git-based rollback strategies to restore service with minimal downtime.",
+      "Deployed and supported applications built with Node.js, Python, PHP, Java, React, and Flutter across DEV through PROD environments.",
+      "Integrated SonarQube and Nexus into CI/CD pipelines for code quality checks and artifact management.",
+      "Implemented RBAC and secure access controls for production systems."
+    ]
+  },
+  {
+    role: "DevOps Intern",
+    company: "Varun Group",
+    location: "India",
+    duration: "January 2021 - March 2021",
+    projects: "AWS infrastructure setup and CI/CD support",
+    impacts: [
+      "Worked hands-on with AWS services including EC2, VPC, IAM, and Linux servers in a production-support capacity.",
+      "Assisted in CI/CD pipeline setup using Jenkins to support application build and deployment workflows.",
+      "Supported application deployments and environment configurations across development environments.",
+      "Built foundational DevOps skills through hands-on implementation and self-directed learning."
+    ]
+  }
+],
   projects: [
     {
       slug: "cicd-pipeline",
